@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">combustivel</string>
+    <string name="Desc">Digite o valor do combustivel:</string>
+    <string name="Alcool">Alcool</string>
+    <string name="Gasolina">Gasolina</string>
+    <string name = "ResultPadrao">Compensa colocar: </string>
+    <string name = "ButtonCalc">Calcular</string>
+</resources>
