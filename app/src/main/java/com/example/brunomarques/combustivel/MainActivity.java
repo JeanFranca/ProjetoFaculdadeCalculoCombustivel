@@ -41,10 +41,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 double AlcoolNumber = Double.valueOf(Alcool.getText().toString());
                 double GasolinaNumber = Double.valueOf(Gasolina.getText().toString());
 
-                if((AlcoolNumber/GasolinaNumber) < 0.7){
-                    Resultado.setText("Compensa colocar: Alcool");
+                if((AlcoolNumber/GasolinaNumber) < 0.6){
+                    Resultado.setText(AlcoolNumber+"÷"+GasolinaNumber+"= "+(AlcoolNumber/GasolinaNumber)+" Compensa colocar: Alcool");
                 }else{
-                    Resultado.setText("Compensa colocar: Gasolina");
+                    Resultado.setText(AlcoolNumber+"÷"+GasolinaNumber+"= "+(AlcoolNumber/GasolinaNumber)+" Compensa colocar: Gasolina");
                 }
             }
 
